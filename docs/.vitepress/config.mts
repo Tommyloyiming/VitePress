@@ -2,8 +2,10 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/VitePress/',
+  
   title: "Tommy Awesome Project",
-  description: "A VitePress Site",
+  description: "A VitePress Site",  
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
