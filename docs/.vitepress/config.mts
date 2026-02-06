@@ -2,6 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  // https://vitepress.dev/reference/site-config#base 
+  // sub path, for example, GitHub pages.
   base: '/VitePress/',
   
   title: "Tommy Awesome Project",
